@@ -28,7 +28,7 @@ function listening() {
 }
 
 // Endpoint for all routes
-let projectData = []
+let projectData = {}
 
 //set GET route to return projectData{}
 app.get('/all', getProjectData)
